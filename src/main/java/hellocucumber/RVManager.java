@@ -12,11 +12,11 @@ public class RVManager {
             throw new Exception("Bad params passed");
 
         List<RendezVous> returnValue  = new ArrayList<>();
-        //do a search to an api
+        //do a search to an api later mock for now...
         //mock
         if(mock != null) {
             mock.add(new RendezVous("Dr John", "H1X9I9", "1.6km", "29-09-2021"));
-            mock.add(new RendezVous("Dr Iny", "H1A9I9", "1.8km", "29-09-2021"));
+            mock.add(new RendezVous("Dr Iny", "H1A1N9", "1.8km", "29-09-2021"));
             return mock;
         }
 

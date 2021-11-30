@@ -11,5 +11,5 @@ Feature: Recherche de RDV
     Then la list est affiche comme suivie
 
       | Name    | Address | Distance | Date       |
-      | DR John | H1X9I9  | 1.6km    | 29-09-2021 |
-      | DR Iny  | H1A1N9  | 1.8km    | 29-09-2021 |
+      | Dr John | H1X9I9  | 1.6km    | 29-09-2021 |
+      | Dr Iny  | H1A1N9  | 1.8km    | 29-09-2021 |
