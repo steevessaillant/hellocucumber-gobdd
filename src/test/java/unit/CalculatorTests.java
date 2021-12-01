@@ -19,20 +19,20 @@ public class CalculatorTests {
     public void AddShouldReturnSevenWhenPassedThreeAndThree(){
 
         int expected = 12;
-        Integer[] numbers = {2,2,2,2,2,2};
+        int[] numbers = {2,2,2,2,2,2};
 
         int actual = sut.Add(numbers);
 
-       Assert.assertTrue(expected == actual);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void AddShouldReturnSumOfArrayPassed(){
 
-        Integer[] numbers = {3,4,3};
+        int[] numbers = {3,4,3};
 
         int actual = sut.Add(numbers);
 
-        Assert.assertTrue(10 == actual);
+        Assert.assertEquals(10, actual);
     }
 }
